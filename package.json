@@ -14,10 +14,10 @@
     "useTabs": false
   },
   "scripts": {
-    "prettier": "prettier src package.json readme.md tsconfig.json --write",
-    "build": "del-cli dist/** -d && npm run prettier && tsc",
-    "prepublish": "yarn build && yarn test",
-    "test": "jest"
+    "prettier": "prettier src test.js jest.config.js package.json readme.md tsconfig.json --write",
+    "build": "del-cli dist/** -d && tsc",
+    "prepublish": "yarn prettier && yarn test",
+    "test": "yarn build && jest"
   },
   "keywords": [
     "entity",
@@ -38,7 +38,8 @@
     "del-cli": "^3.0.1",
     "jest": "^26.4.2",
     "prettier": "^2.0.5",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "yarn": "^1.22.5"
   },
   "dependencies": {}
 }
