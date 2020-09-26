@@ -3,7 +3,7 @@
   "author": "ghom",
   "license": "ISC",
   "version": "0.0.1",
-  "description": "",
+  "description": "Entity recursive update system using requestAnimationFrame",
   "main": "dist/index.js",
   "types": "dist",
   "prettier": {
@@ -19,7 +19,16 @@
     "prepublish": "yarn build && yarn test",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "entity",
+    "game",
+    "animation",
+    "frame",
+    "recursive",
+    "update",
+    "pixi.js",
+    "p5.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CamilleAbella/sakamoto.git"
