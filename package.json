@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "sakamoto",
   "author": "ghom",
   "license": "ISC",
   "version": "0.0.1",
@@ -22,7 +22,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CamilleAbella/project-name.git"
+    "url": "git+https://github.com/CamilleAbella/sakamoto.git"
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
